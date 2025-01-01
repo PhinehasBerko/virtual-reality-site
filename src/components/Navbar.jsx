@@ -31,8 +31,8 @@ const Navbar = () => {
             <div className="fixed right-0 z-20 bg-neutral-900 w-full p-10 flex flex-col justify-center items-center lg:hidden">
                 <ul className="flex flex-shrink">{navItems.map((item,index) =>(<li key={index} className="py-2 px-2"><a href={item?.href}>{item?.label}</a></li>))}
                 </ul>
-                <div className="flex flex-row space-x-6 mt-5">
-                    <a href="#" className="rounded-md border py-2 px-5">Sign In</a>
+                <div className="flex flex-row space-x-3 mt-5 items-center justify-center">
+                    <a href="#" className="rounded-md border py-2 px-2  text-sm">Sign In</a>
                     <a href="#create" className="py-2 px-5 text-white rounded-md bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-600 hover:to-orange-400">Create an account</a>
                 </div>
             </div>
